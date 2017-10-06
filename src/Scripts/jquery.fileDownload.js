@@ -168,7 +168,7 @@ $.extend({
 
         var httpMethodUpper = settings.httpMethod.toUpperCase();
 
-        if (isAndroid && httpMethodUpper !== "GET" && settings.androidPostUnsupportedMessageHtml) {
+       /* if (isAndroid && httpMethodUpper !== "GET" && settings.androidPostUnsupportedMessageHtml) {
             //the stock android browser straight up doesn't support file downloads initiated by non GET requests: http://code.google.com/p/android/issues/detail?id=1780
 
             if ($().dialog) {
@@ -178,7 +178,7 @@ $.extend({
             }
 
             return deferred.reject();
-        }
+        }*/
 
         var $preparingDialog = null;
 
